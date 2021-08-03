@@ -996,7 +996,7 @@ ul.social_icon li a i:hover {
 }
 
 .carousel-caption button {
-     animation-delay: 4s;
+     animation-delay: 3s;
 }
 
 .cuplle .read_more {
@@ -1010,7 +1010,7 @@ ul.social_icon li a i:hover {
 
 .cuplle h3 {
      padding: 0;
-     font-size: 63px;
+     font-size: 45px;
      line-height: 70px;
      color: #fff;
      font-weight: bold;
