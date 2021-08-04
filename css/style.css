@@ -142,7 +142,8 @@ p {
 }
 
 a {
-     color: #222222;
+     /* color: #222222; */
+     color: #bebbbb;
      text-decoration: none;
      outline: none !important;
 }
