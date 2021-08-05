@@ -33,7 +33,7 @@
         margin: 0 0px;
     }
     .cuplle h3 {
-        font-size: 53px;
+        font-size: 33px;
     }
     ul.social_icon li a i {
         width: 31px;
@@ -66,7 +66,7 @@
         width: 140px;
     }
     .cuplle h3 {
-        font-size: 45px;
+        font-size: 30px;
     }
     .titlepage h2 {
         font-size: 45px;
@@ -75,6 +75,12 @@
         top: 21px
     }
 }
+
+/* @media (max-width: 405px) and (min-width: 300px) {
+    .cuplle h3 {
+      font-size: 20px;
+    }
+  } */
 
 @media (min-width: 576px) and (max-width: 767px) {
     .full_bg {
@@ -98,7 +104,7 @@
         padding-top: 28%;
     }
     .cuplle h3 {
-        font-size: 41px;
+        font-size: 25px;
     }
     .inner_page .logo {
         margin-left: 57%;
@@ -145,6 +151,8 @@
     }
 }
 
+
+
 @media (max-width: 575px) {
     .full_bg {
         height: 100%;
@@ -175,8 +183,9 @@
        margin-left: 50%;
     }
     .cuplle h3 {
-        font-size: 26px;
+        font-size: 18px;
         line-height: 45px;
+        
     }
     .ma_bottom30 {
         margin-bottom: 30px;
@@ -242,8 +251,9 @@
 }
 
 @media (max-width: 411px) {
-    .inner_page .logo{
+    .inner_page .logo .cuplle h3{
         margin-left: 39%;
+        font-size: 16px;
     }
 }
 
