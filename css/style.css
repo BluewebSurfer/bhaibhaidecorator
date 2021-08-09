@@ -372,9 +372,9 @@ button {
 /** banner section **/
 
 .full_bg {
-     background: url(../images/banner111.png);
+     background: url(../images/banner111111.png);
      background-size: cover;
-     background-position: center;
+     background-position: right;
      background-repeat: no-repeat;
      height: 100vh;
 }

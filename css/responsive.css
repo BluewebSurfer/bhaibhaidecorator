@@ -86,7 +86,7 @@
     .full_bg {
         height: 100%;
         padding-bottom: 111px;
-        background-size: 100% 100%;
+        background-size: 153% 100%;
     }
     #carouselExampleIndicators .carousel-control-prev {
         top: 100%;
@@ -158,7 +158,7 @@
         height: 100%;
         /* padding-bottom: 111px; */
         padding-bottom: -23px;
-        background-size: 100% 100%;
+        background-size: 153% 100%;
     }
     #carouselExampleIndicators .carousel-control-prev {
         top: 100%;
