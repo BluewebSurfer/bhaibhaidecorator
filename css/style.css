@@ -162,6 +162,7 @@ a,
 img {
      max-width: 100%;
      height: auto;
+     /* margin-left: 2.5em; */
 }
 
  :focus {
@@ -446,7 +447,8 @@ button {
 /** about section **/
 
 .about {
-     background: url(../images/about_bg.jpg);
+     /* background: url(../images/about_bg.jpg); */
+     background: url(../images/I10.png);
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
@@ -475,6 +477,7 @@ button {
      width: 100%;
      box-shadow: 0 0 49px rgba(22, 22, 23, 0.52);
      /* box-shadow: 0px 0px 6px 0px #fbc50a; */
+     
 }
 
 .about .read_more {
@@ -1093,3 +1096,140 @@ background:#021626db;
 .inner_page .about {
      padding-bottom:80px;
 }
+
+
+/* Slideshow container */
+.slideshow-container {
+     max-width: 1000px;
+     position: relative;
+     margin: auto;
+   }
+   
+   /* Next & previous buttons */
+   .prev, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     width: auto;
+     padding: 16px;
+     margin-top: -22px;
+     color: white;
+     font-weight: bold;
+     font-size: 40px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+   }
+   
+   /* Position the "next button" to the right */
+   .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+   }
+   
+   /* On hover, add a black background color with a little bit see-through */
+   .prev:hover, .next:hover {
+     background-color: rgba(0,0,0,0.8);
+   }
+   
+   /* Caption text */
+   .text {
+     color: #f2f2f2;
+     font-size: 15px;
+     padding: 8px 12px;
+     position: absolute;
+     bottom: 8px;
+     width: 100%;
+     text-align: center;
+   }
+   
+   /* Number text (1/3 etc) */
+   .numbertext {
+     color: #f2f2f2;
+     font-size: 12px;
+     padding: 8px 12px;
+     position: absolute;
+     top: 0;
+   }
+   
+   /* The dots/bullets/indicators */
+   .dot {
+     cursor: pointer;
+     height: 15px;
+     width: 15px;
+     margin: 0 2px;
+     background-color: #bbb;
+     border-radius: 50%;
+     display: inline-block;
+     transition: background-color 0.6s ease;
+   }
+   
+   /* .active, .dot:hover {
+     background-color: #717171;
+   } */
+   
+   /* Fading animation */
+   .run {
+     -webkit-animation-name: fade;
+     -webkit-animation-duration: .5s;
+     animation-name: fade;
+     animation-duration: .5s;
+   }
+   
+   @-webkit-keyframes run {
+     from {opacity: .4} 
+     to {opacity: 1}
+   }
+   
+   @keyframes run {
+     from {opacity: .4} 
+     to {opacity: 1}
+   }
+   
+   /* On smaller screens, decrease text size */
+   @media only screen and (max-width: 300px) {
+     .prev, .next,.text {font-size: 11px}
+   }
+
+
+   * {box-sizing: border-box}
+   .mySlides1, .mySlides2 {display: none}
+   img {vertical-align: middle;}
+   
+   /* Slideshow container */
+   .slideshow-container {
+     max-width: 1000px;
+     position: relative;
+     margin: auto;
+   }
+   
+   /* Next & previous buttons */
+   .prev, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     width: auto;
+     padding: 16px;
+     margin-top: -22px;
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+     transition: 0.3s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+   }
+   
+   /* Position the "next button" to the right */
+   .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+   }
+   
+   /* On hover, add a grey background color */
+   .prev:hover, .next:hover {
+     background-color: #f1f1f1;
+     color: black;
+   }
+   
+
+   
